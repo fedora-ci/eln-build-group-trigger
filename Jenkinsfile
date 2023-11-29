@@ -25,7 +25,7 @@ properties(
 			checks: [
                             [
                                 expectedValue: '^f35$',
-                                field: '$.artifact.release'
+                                field: '$.update.release.dist_tag'
                             ]
 			]
                     ]
